@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplicationchat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationChat">
+        <activity android:name=".Activity.GroupChatActivity"></activity>
+        <activity
+            android:name=".Activity.SelectLanguageActivity"
+            android:label="@string/title_activity_select_language"
+            android:theme="@style/Theme.MyApplicationChat.NoActionBar" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ReviewSendingImageActivity" />
+        <activity android:name=".Activity.UserInfoActivity" />
+        <activity android:name=".Activity.VideoCallActivity" />
+        <activity
+            android:name=".Display.DisplayContactsImage"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Display.FriendsImageActivity" />
+        <activity
+            android:name=".Activity.ChatActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".Display.DisplayImageActivity" />
+        <activity android:name=".Activity.UserProfile_Activity" />
+        <activity android:name=".Activity.UserProfileActivity" />
+        <activity android:name=".Activity.settings_activity" />
+        <activity android:name=".Activity.login_activity" />
+        <activity android:name=".Activity.home_activity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

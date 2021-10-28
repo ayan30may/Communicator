@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">میری ایپلیکیشن چیٹ۔</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ہیلو خالی ٹکڑا۔</string>
+    <string name="invite_a_friend">کسی دوست کو مدعو کریں۔</string>
+    <string name="profile_photo">پروفائل تصویر۔</string>
+    <string name="enter_mobile_number">
+موبائل نمبر درج کریں۔</string>
+    <string name="next1">
+اگلا 1۔</string>
+    <string name="enter_otp">
+OTP درج کریں۔</string>
+    <string name="verify">
+تصدیق کریں</string>
+    <string name="name1">
+نام 1۔</string>
+    <string name="status">حالت</string>
+    <string name="change_mobile_number">
+موبائل نمبر تبدیل کریں۔</string>
+    <string name="make_account_with_some_other_number">
+کسی دوسرے نمبر سے اکاؤنٹ بنائیں۔</string>
+    <string name="delete_my_account">
+میرا اکاؤنٹ حذف کریں۔</string>
+    <string name="remove_my_complete_about_from_this_app">اس ایپ سے میرا مکمل حذف کریں۔</string>
+    <string name="send_an_invitation_to_your_friends_to_have_a_chat">
+اپنے دوستوں کو گپ شپ کے لیے دعوت نامہ بھیجیں۔</string>
+    <string name="user_info">
+صارف کی معلومات</string>
+    <string name="enter_your_username_for_just_chat">(صرف چیٹ کے لیے اپنا صارف نام درج کریں)</string>
+    <string name="enter_your_name">
+اپنا نام درج کریں</string>
+    <string name="next">اگلے</string>
+    <string name="name">نام۔</string>
+    <string name="this_is_not_your_username_or_pin_this_name_will_be_visible_to_your_contacts">یہ آپ کا صارف نام یا پن نہیں ہے۔ یہ نام آپ کے رابطوں کو نظر آئے گا۔</string>
+    <string name="about1">تقریبا1 1۔</string>
+    <string name="i_am_on_just_chat">میں صرف چیٹ پر ہوں۔</string>
+    <string name="phone">
+فون</string>
+    <string name="about">
+کے بارے میں</string>
+    <string name="enter_your_thoughts_here">
+اپنے خیالات یہاں درج کریں۔</string>
+    <string name="cancel1">منسوخ 1۔</string>
+    <string name="save1">محفوظ کریں 1۔</string>
+    <string name="enter_name">اپنا نام درج کریں</string>
+    <string name="enter_here">
+یہاں داخل کریں۔</string>
+    <string name="cancel">
+منسوخ کریں</string>
+    <string name="save">
+محفوظ کریں</string>
+    <string name="profile_photo1">
+پروفائل فوٹو 1۔</string>
+    <string name="gallery">
+گیلری۔</string>
+    <string name="camera">
+کیمرہ۔</string>
+    <string name="_12_02_12_01_02_p_m">12/02/12 01:02 بجے</string>
+    <string name="message">پیغام</string>
+    <string name="description0">
+تفصیل 0۔</string>
+    <string name="text_message1">
+متن پیغام</string>
+    <string name="text_message">
+متن پیغام</string>
+    <string name="description">
+تفصیل</string>
+    <string name="new_group">
+نیا گروپ۔</string>
+    <string name="settings">
+ترتیبات</string>
+    <string name="log_out">
+لاگ آوٹ</string>
+    <string name="username_">
+صارف نام</string>
+    <string name="username1">صارف نام 1۔</string>
+    <string name="remove_photo">تصویر ہٹائیں۔</string>
+    <string name="remove_complete_info_from_the_app">ایپ سے مکمل معلومات کو ہٹا دیں۔</string>
+    <string name="active_4h_ago">
+4 گھنٹے پہلے فعال</string>
+    <string name="username">صارف نام</string>
+    <string name="active_5h_ago">
+5 گھنٹے پہلے فعال</string>
+
+    <string name="title_activity_select_language">title activity select language</string>
+
+</resources>
